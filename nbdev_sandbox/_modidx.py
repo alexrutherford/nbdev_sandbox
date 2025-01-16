@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://alexrutherford.github.io',
                 'git_url': 'https://github.com/alexrutherford/nbdev_sandbox',
                 'lib_path': 'nbdev_sandbox'},
-  'syms': {'nbdev_sandbox.test': {'nbdev_sandbox.test.foo': ('test.html#foo', 'nbdev_sandbox/test.py')}}}
+  'syms': { 'nbdev_sandbox.test': { 'nbdev_sandbox.test.foo': ('test.html#foo', 'nbdev_sandbox/test.py'),
+                                    'nbdev_sandbox.test.test_func_2': ('test.html#test_func_2', 'nbdev_sandbox/test.py')}}}
